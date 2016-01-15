@@ -1,0 +1,69 @@
+/*Whole Page*/
+html {
+  background-color:#74AFAD;
+}
+/*Header*/
+header {
+  font-size: 2em;
+  text-align: center;
+  color: #ECECEA;
+}
+
+/*Navigation*/
+nav {
+  text-align: center;
+  background-color: #558C89;
+  font-size: 1.2em;
+  border: 1px solid black;
+}
+
+nav a{
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #ECECEA;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: helvetica;
+}
+
+a:hover {
+  color: #D9853B;
+}
+
+a:focus {
+  color: #D9853B;
+}
+
+a:active {
+  color: #ECECEA;
+}
+
+main img{
+  text-align: center;
+  width: 350px;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+main p {
+  text-align: center;
+  color: #ECECEA;
+  text-family: helvetica;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  text-align: center;
+  color: #ececea;
+  float: bottom;
+}
+
+/* Goal color scheme
+Darker blue = #558C89
+Lighter blue = #74AFAD
+Orange = #D9853B
+Grey = #ECECEA */
