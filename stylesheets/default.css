@@ -38,6 +38,8 @@ a:active {
   color: #ECECEA;
 }
 
+/*Main Page*/
+
 main img{
   text-align: center;
   width: 350px;
@@ -52,11 +54,12 @@ main p {
   text-align: center;
   color: #ECECEA;
   text-family: helvetica;
-  padding-bottom: 10px;
-  border-bottom: 1px solid black;
 }
 
+/*Footer*/
 footer {
+  border-top: 1px solid black;
+  padding-top: 5px;
   text-align: center;
   color: #ececea;
   float: bottom;
