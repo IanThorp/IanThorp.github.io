@@ -29,6 +29,6 @@ a {
   font-family: helvetica;
 }
 
-#attribute {
+#attribute , .attribute {
   font-size: .5em;
 }
