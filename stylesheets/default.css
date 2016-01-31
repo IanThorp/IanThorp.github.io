@@ -1,12 +1,12 @@
 /*Whole Page*/
 html {
-  background-color:#74AFAD;
+  background-color:#ECECEA;
 }
 /*Header*/
 header {
   font-size: 2em;
   text-align: center;
-  color: #ECECEA;
+  color: #558C89;
 }
 
 /*Navigation*/
@@ -52,7 +52,7 @@ main img{
 
 main p {
   text-align: center;
-  color: #ECECEA;
+  color: #558C89;
   text-family: helvetica;
 }
 
@@ -60,8 +60,7 @@ main p {
 footer {
   border-top: 1px solid black;
   padding-top: 5px;
-  text-align: center;
-  color: #ececea;
+  color: #558C89;
   float: bottom;
 }
 
