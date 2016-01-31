@@ -20,7 +20,7 @@ header {
 }
 
 /*body*/
-a {
+.index-post {
   margin-right: 20px;
   margin-left: 20px;
   color: #558C89;
