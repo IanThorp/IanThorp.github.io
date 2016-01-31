@@ -63,6 +63,32 @@ footer {
   color: #558C89;
   float: bottom;
 }
+.social {
+  float: right;
+}
+
+.facebook , .email , .linkedin{
+  width: 35px;
+  height: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.github {
+  width: 35px;
+  height: auto;
+  -webkit-filter: opacity(80%);
+}
+
+.social img:hover{
+  -webkit-filter: none;
+  filter: none;
+}
+.social a{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 
 /* Goal color scheme
 Darker blue = #558C89
