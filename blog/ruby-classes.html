@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <title>Instance Variables and Methods</title>
+  </head>
+  <body>
+    <header>
+      <a href="https://www.ianthorp.github.io"><img src="../imgs/my-pic.jpg"></a> <h1>Ian Thorp</h1>
+      <a class="index-post" href="http://ianthorp.github.io/blog/">Blog Home</a>
+    </header>
+    <br>
+    <main>
+      <h2>Instance Variables and Methods</h2>
+      <h3>02/07/2016</h3>
+      <article>
+        <h3>Methods</h3>
+          <p>
+            Instance variables and methods can be incredibly useful when used properly. Keep in mind that these will be much more limited in how far reaching they are. Of course, as the name implies, they can only be used on a specific instance of a class.
+          </p>
+          <p>
+            The easiest way to learn this is to jump right in to coding. I will create an object and for keeping an inventory, and a class method to find an object in there.
+          </p>
+          <pre><code>
+          Class Inventory
+            def self.locate(item)
+              p "The location of #{item} has been found."
+            end
+          end</code></pre>
+          <p>
+            Notice the use of self to define class methods. This method will be used to search all objects of the class Inventory. Since it is affected by all, and not just one instance, of this class, the class method suits it best.
+          </p>
+          <p>
+            If we just wanted to do something to a single instance of this class, instance methods are the way to go.
+          </p>
+          <pre><code>
+          Class Inventory
+            def self.locate(item)
+              p "The location of #{item} has been found."
+            end
+
+            def deplete(amount)
+              p "Current item has been depleted by #{amount}."
+            end
+          end
+          </code></pre>
+          <p>
+           They will also be called for differently. The class method being called on the class name and the instance(deplete) method being called on just an instance of that class, e.g., tissues, rice, pants.
+          </p>
+        <h3>Variables</h3>
+          <p>
+            Now, when making classes with variables, the two main ones  you need to worry about are instance variables and class variables. Here is how these variables are set.
+          </p>
+          <pre><code>
+            @variable1 = "instance variable"
+            @@variable2 = "class variable"
+          </code></pre>
+          <p>
+            With instance variables, this can be different for each and every instance of a particular class. If you change it for one instance, it will not change any other instances. Now class variables are a little more far reaching. If you change a class variable anywhere, it will change it for each and every instance of the class.
+          </p>
+      </article>
+    </main>
+    <footer>
+      &copy; 2016 Ian Thorp
+      <div class="social">
+        <a href="https://www.facebook.com/69cutlass"><img class="facebook" src="../imgs/facebook-color.png"></a>
+        <a href="mailto:IanMThorp@Gmail.com"><img class="email" src="../imgs/Email-color.png" ></a>
+        <a href="https://github.com/IanThorp"><img class="github" src="../imgs/github-color.png"></a>
+        <a href="https://www.linkedin.com/in/ian-thorp-110b4b110"><img class="linkedin" src="../imgs/linkedin-color.png"></a>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<!--
+How was it to wireframe and create an HTML page with a pair?
+  It was a good expierence. We got to talk a bit about what makes a good website. I definitely pulled a from design ideas from my partner.
+
+Did you find wireframing to be helpful to your development process?
+  Yes, wireframing definitely helped me visualize the website. I would have coded a completely different template if I did not wire frame first, and would not have been very happy with the results.
+
+What did you and your pair decide made a good wireframe?
+  Attractive design and ease of finding links was very important. Putting the article at the right place so your eyes draw to it was very  important for us.
+
+What new semantic elements did you learn about (if any)?
+  My partner suffested suggested we use a footer element.  Although not a super unique element, it works perfectly for the application I used it for in the template.
+  I also learned the break element. I can see that element coming in handy a lot.
+-->

@@ -56,6 +56,11 @@ main p {
   text-family: helvetica;
 }
 
+code {
+  background-color: #74AFAD;
+  display: block;
+}
+
 /*Footer*/
 footer {
   border-top: 1px solid black;
