@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <title>My DBC Blog</title>
+  </head>
+  <body>
+    <header>
+      <a href="https://www.ianthorp.github.io"><img src="../imgs/my-pic.jpg"></a> <h1>Ian Thorp</h1>
+      <a class="index-post" href="http://ianthorp.github.io/blog/">Blog Home</a>
+    </header>
+    <br>
+    <main>
+      <h2>Ruby vs JavaScript: Hashes and Objects</h2>
+      <h3>02/15/2016</h3>
+      <article>
+        <p>
+        Ruby and Javascript are similar in a lot of ways.  Both are object oriented and both scripting languages. They even have a similar way to build what is called a hash in ruby. They actually build the hashes and objects in a very similar way, but do have some slight differences.
+        </p>
+
+        <pre><code>
+          Ruby
+          hash_name = { hash_key: hash_value}
+
+          JavaScript
+          var hashName = { hashKey: hashValue}
+        </code></pre>
+
+        <p>
+          The main difference here is that you need to put the word "var" before the object in JavaScript. Otherwise, in Ruby, snake_case is prefered while JavaScript prefers camelCase. This is not necessary for the code to work, but a style preference.
+        </p>
+
+        <p>
+          Calling the values will also be done in a similar way.
+        </p>
+
+        <pre><code>
+          Ruby
+          hash_name[:hash_key] --> hash_value
+
+          JavaScript
+          hashName.hashKey --> hashValue
+        </code></pre>
+        <p>
+          Both of these scripting languages have their strengths and weaknesses. In general, Javascript is used more often for front end web development and ruby is used more often for back end web development. If you want to become a full stack developer, it is important to know both and know them well.
+        </p>
+      </article>
+    </main>
+    <footer>
+      &copy; 2016 Ian Thorp
+      <div class="social">
+        <a href="https://www.facebook.com/69cutlass"><img class="facebook" src="../imgs/facebook-color.png"></a>
+        <a href="mailto:IanMThorp@Gmail.com"><img class="email" src="../imgs/Email-color.png" ></a>
+        <a href="https://github.com/IanThorp"><img class="github" src="../imgs/github-color.png"></a>
+        <a href="https://www.linkedin.com/in/ian-thorp-110b4b110"><img class="linkedin" src="../imgs/linkedin-color.png"></a>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<!--
+How was it to wireframe and create an HTML page with a pair?
+  It was a good expierence. We got to talk a bit about what makes a good website. I definitely pulled a from design ideas from my partner.
+
+Did you find wireframing to be helpful to your development process?
+  Yes, wireframing definitely helped me visualize the website. I would have coded a completely different template if I did not wire frame first, and would not have been very happy with the results.
+
+What did you and your pair decide made a good wireframe?
+  Attractive design and ease of finding links was very important. Putting the article at the right place so your eyes draw to it was very  important for us.
+
+What new semantic elements did you learn about (if any)?
+  My partner suffested suggested we use a footer element.  Although not a super unique element, it works perfectly for the application I used it for in the template.
+  I also learned the break element. I can see that element coming in handy a lot.
+-->
