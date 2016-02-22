@@ -61,13 +61,22 @@ code {
   display: block;
 }
 
+body {
+  padding-bottom: 30px;
+}
 /*Footer*/
 footer {
   border-top: 1px solid black;
   padding-top: 5px;
   color: #558C89;
-  float: bottom;
+  /*float: bottom;*/
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
+
+
 .social {
   float: right;
 }
