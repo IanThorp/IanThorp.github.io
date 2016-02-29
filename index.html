@@ -1,35 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-    <title>Ian Thorp's Website</title>
-  </head>
+---
+layout: default
+---
 
-  <body>
-    <header>
-      <h1>Ian Thorp's Website</h1>
-    </header>
+<div class="home">
 
-    <nav>
-      <a href="http://ianthorp.github.io/blog/index.html">Blog</a>
-      <a href="http://ianthorp.github.io/blog/about.html">About Me</a>
-      <a href="http://ianthorp.github.io/projects/index.html">Projects</a>
-      <a href="#">Resume</a>
-    </nav>
+  <h1 class="page-heading">Posts</h1>
 
-    <main>
-      <img src="imgs/my-pic.jpg" alt="Ian Thorp"> <!-- Should get new pic, fit color scheme-->
-      <p>Welcome to my Website. I am currently a student at Dev Bootcamp in the Sea Lions cohort. Be sure to check out my blog!</p>
-    </main>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-    <footer>
-      &copy; 2016 Ian Thorp
-      <div class="social">
-        <a href="https://www.facebook.com/69cutlass"><img class="facebook" src="imgs/facebook-color.png"></a>
-        <a href="mailto:IanMThorp@Gmail.com"><img class="email" src="imgs/Email-color.png" ></a>
-        <a href="https://github.com/IanThorp"><img class="github" src="imgs/github-color.png"></a>
-        <a href="https://www.linkedin.com/in/ian-thorp-110b4b110"><img class="linkedin" src="imgs/linkedin-color.png"></a>
-      </div>
-    </footer>
-  </body>
-</html>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

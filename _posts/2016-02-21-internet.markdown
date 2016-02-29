@@ -1,0 +1,12 @@
+---
+layout: post
+title: "How Does The Internet Work?"
+date: 2016-02-21
+categories: Culture
+---
+
+The internet. A series of tubes some say. Very complex regardless. But the big question is, just how does the damn thing work.
+
+The internet is basically a process for sending data between two computers. It actually uses lots of computers in between to help transfer these packets. No one is actually in charge of the internet. No one really runs it. It is run by everyone using it. All of us doing a small part.
+
+Basically, we are sending and recieving lots and lots of data packets over and over again. Regardless of how it works, I think this internet thing is really going to catch on.
